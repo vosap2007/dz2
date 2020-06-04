@@ -1,15 +1,27 @@
 body {
   background-color: #e5e5e5;
   color: #757575;
+  font-family: Roboto, sans-serif;
 }
 
-.logo {
+/*Logo*/
+
+.logo-web {
+  color: #2196f3;
+  font-family: Raleway;
+
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo-studio {
   color: #000000;
+  font-family: Raleway;
+
+  font-size: 26px;
+  line-height: 1.2;
 }
 
-ul {
-  list-style: none;
-}
 /* site-nav*/
 
 .site-nav .link {
@@ -57,5 +69,26 @@ ul {
 /*team*/
 
 .team-name {
+  color: #212121;
+}
+
+/*---styles portfolio--*/
+
+/*filter*/
+
+.filter-button {
+  color: #212121;
+  background: #f5f4fa;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background: #2196f3;
+}
+
+/*progect*/
+
+.projects-title {
   color: #212121;
 }
