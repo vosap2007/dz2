@@ -6,10 +6,13 @@ body {
 
 /*Logo*/
 
+.logo {
+  text-decoration: none;
+}
+
 .logo-web {
   color: #2196f3;
   font-family: Raleway;
-
   font-size: 26px;
   line-height: 1.2;
 }
@@ -24,8 +27,16 @@ body {
 
 /* site-nav*/
 
+.site-nav {
+  list-style: none;
+}
+
 .site-nav .link {
   color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -37,15 +48,41 @@ body {
   color: #2196f3;
 }
 
+.auth-nav {
+  list-style: none;
+}
+
+.auth-nav .links {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none;
+}
+
+.auth-nav .links:hover,
+.auth-nav .links:focus {
+  color: #2196f3;
+}
+
 /* hero */
 
 .hero-title {
   color: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
 }
 
 .hero-button {
   color: #ffffff;
   background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  text-decoration: none;
 }
 
 /*section*/
@@ -56,9 +93,11 @@ body {
 
 /*features*/
 
-.features-title {
-  color: #212121;
+.features {
+list-style: none;
 }
+
+.features-title 
 
 /*activity*/
 
@@ -66,15 +105,38 @@ body {
   color: #ffffff;
 }
 
+/*activity*/
+
+.activity {
+  list-style: none;
+}
+
 /*team*/
+
+.team {
+  list-style: none;
+}
+}
 
 .team-name {
   color: #212121;
 }
 
+.social {
+list-style: none;
+}
+
+.clients {
+list-style: none;  
+}
+
 /*---styles portfolio--*/
 
 /*filter*/
+
+.filter {
+ list-style: none; 
+}
 
 .filter-button {
   color: #212121;
@@ -87,8 +149,16 @@ body {
   background: #2196f3;
 }
 
-/*progect*/
+/*project*/
+
+.projects {
+list-style: none;
+}
 
 .projects-title {
   color: #212121;
+}
+
+.projects-link {
+  text-decoration: none;
 }
