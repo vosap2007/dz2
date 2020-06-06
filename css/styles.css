@@ -20,7 +20,6 @@ body {
 .logo-studio {
   color: #000000;
   font-family: Raleway;
-
   font-size: 26px;
   line-height: 1.2;
 }
@@ -89,20 +88,30 @@ body {
 
 .section-title {
   color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /*features*/
 
 .features {
-list-style: none;
+  list-style: none;
 }
 
-.features-title 
+.features-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+}
 
-/*activity*/
-
-.activity-title {
-  color: #ffffff;
+.features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 /*activity*/
@@ -111,23 +120,68 @@ list-style: none;
   list-style: none;
 }
 
+.activity-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
 /*team*/
 
 .team {
   list-style: none;
 }
-}
 
 .team-name {
   color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
 }
 
 .social {
-list-style: none;
+  list-style: none;
 }
 
 .clients {
-list-style: none;  
+  list-style: none;
+}
+
+/*Foter*/
+
+.footer-address {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer-call {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.developed {
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
 }
 
 /*---styles portfolio--*/
@@ -135,7 +189,7 @@ list-style: none;
 /*filter*/
 
 .filter {
- list-style: none; 
+  list-style: none;
 }
 
 .filter-button {
@@ -152,13 +206,29 @@ list-style: none;
 /*project*/
 
 .projects {
-list-style: none;
-}
-
-.projects-title {
-  color: #212121;
+  list-style: none;
 }
 
 .projects-link {
   text-decoration: none;
+}
+.projects-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.projects-text {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.project-fish {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
 }
