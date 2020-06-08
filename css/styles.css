@@ -2,6 +2,10 @@ body {
   background-color: #e5e5e5;
   color: #757575;
   font-family: Roboto, sans-serif;
+
+  --link-color: #2196f3;
+  --title-color: #212121;
+  --button-color: #ffffff;
 }
 
 /*Logo*/
@@ -11,7 +15,7 @@ body {
 }
 
 .logo-web {
-  color: #2196f3;
+  color: var(--link-color);
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.2;
@@ -31,7 +35,7 @@ body {
 }
 
 .site-nav .link {
-  color: #212121;
+  color: var(--title-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -40,11 +44,11 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--link-color);
 }
 
 .site-nav .link.current {
-  color: #2196f3;
+  color: var(--link-color);
 }
 
 .auth-nav {
@@ -61,14 +65,13 @@ body {
 
 .auth-nav .links:hover,
 .auth-nav .links:focus {
-  color: #2196f3;
+  color: var(--link-color);
 }
 
 /* hero */
 
 .hero-title {
-  color: #ffffff;
-
+  color: var(--button-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -76,8 +79,8 @@ body {
 }
 
 .hero-button {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--button-color);
+  background-color: var(--link-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
@@ -87,7 +90,7 @@ body {
 /*section*/
 
 .section-title {
-  color: #212121;
+  color: var(--title-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -102,7 +105,7 @@ body {
 }
 
 .features-title {
-  color: #212121;
+  color: var(--title-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -121,7 +124,7 @@ body {
 }
 
 .activity-title {
-  color: #ffffff;
+  color: var(--button-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -134,7 +137,7 @@ body {
 }
 
 .team-name {
-  color: #212121;
+  color: var(--title-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -157,7 +160,7 @@ body {
 /*Foter*/
 
 .footer-address {
-  color: #ffffff;
+  color: var(--button-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -171,7 +174,7 @@ body {
 }
 
 .footer-call {
-  color: #ffffff;
+  color: var(--button-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -193,14 +196,14 @@ body {
 }
 
 .filter-button {
-  color: #212121;
+  color: var(--title-color);
   background: #f5f4fa;
 }
 
 .filter-button:hover,
 .filter-button:focus {
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--button-color);
+  background: var(--link-color);
 }
 
 /*project*/
@@ -213,7 +216,7 @@ body {
   text-decoration: none;
 }
 .projects-title {
-  color: #212121;
+  color: var(--title-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -227,7 +230,7 @@ body {
 }
 
 .project-fish {
-  color: #ffffff;
+  color: var(--button-color);
   font-weight: 400;
   font-size: 18px;
   line-height: 1.6;
