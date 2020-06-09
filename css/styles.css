@@ -200,8 +200,8 @@ body {
   background: #f5f4fa;
 }
 
-.filter-button:hover,
-.filter-button:focus {
+.filter-button-hover:hover,
+.filter-button-hover:focus {
   color: var(--button-color);
   background: var(--link-color);
 }
